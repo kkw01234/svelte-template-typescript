@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*", "public/@types"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
